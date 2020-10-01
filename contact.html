@@ -33,7 +33,7 @@
                     <a class="nav-link" href="new.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/about.html">About</a>
+                    <a class="nav-link" href="/about.html">About</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -47,7 +47,7 @@
                     </div>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="/contact.html">Contact us</a>
                 </li>
             </ul>
@@ -59,43 +59,45 @@
     </nav>
     <div class="container">
         <div class="container m-4">
-            <div class="row featurette d-flex justify-content-center align-items-center">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Hello there this website is all about coding. <span
-                            class="text-muted">Kaboom.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
-                        tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img src="images/about1.jpg" class="img-fluid" height="500" alt="">
-                </div>
-            </div>
-            <div class="row featurette d-flex justify-content-center align-items-center">
-                <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">This CodeWithDhiraj is made by the ceo of teamrippers. <span
-                            class="text-muted">Kaboom.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
-                        tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5 order-md-1">
-                    <img src="images/about2.jpg" class="img-fluid" height="500" alt="">
-                </div>
-            </div>
-            <div class="row featurette d-flex justify-content-center align-items-center">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">In this website we teach beginners how to code and make this world a
-                        good place for coding beginners. <span class="text-muted">Kaboom.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
-                        tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img src="images/about3.jpg" class="img-fluid" height="500" alt="">
-                </div>
-            </div>
+            <h2>Contact Us</h2>
         </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Select your Query</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Website Related</option>
+                    <option>Payment Related</option>
+                    <option>Services</option>
+                    <option>Course Related</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-2">Are you a member?</div>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                            Yes
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Justify your query</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class="btn btn-primary">Submit</button>
+        </form>
+
+
+
+
+
         <footer class="container">
             <p class="float-right"><a href="#">Back to top</a></p>
             <p>© 2020-2021 CodeWithDhiraj, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>

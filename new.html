@@ -12,14 +12,14 @@
 
     <title>CodeWithDhiraj</title>
     <style>
-        .navcolor{
+        .navcolor {
             background: rgb(255, 58, 58);
         }
     </style>
 </head>
 
 <body>
-    <nav class="navcolor navbar navbar-expand-lg navbar-light">
+    <nav class="navcolor navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">CodeWithDhiraj</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,8 +54,56 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
             </form>
+            <div class="mx-2">
+                <button class="btn btn-light" data-toggle="modal" data-target="#loginModel">Login</button>
+                <button class="btn btn-light" data-toggle="modal" data-target="#registerModel">Register</button>
+            </div>
         </div>
     </nav>
+
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+            Login Model
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- SignUp Modal -->
+<div class="modal fade" id="registerModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Sign Up Model
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -119,10 +167,10 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                       <img class="bd-placeholder-img" width="200" height="250" src="./images/thumb2.jpg" alt="">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
+                        <img class="bd-placeholder-img" width="200" height="250" src="./images/thumb2.jpg" alt="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Thumbnail</text>
                         </svg>
                     </div>
                 </div>
@@ -140,7 +188,7 @@
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img class="bd-placeholder-img" width="200" height="250" src="./images/thumb3.jpg" alt="">
-                            <title>Placeholder</title>
+                        <title>Placeholder</title>
                         </svg>
                     </div>
                 </div>
@@ -157,10 +205,10 @@
                         <a href="#" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                       <img class="bd-placeholder-img" width="200" height="250" src="./images/thumb4.jpg" alt="">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
+                        <img class="bd-placeholder-img" width="200" height="250" src="./images/thumb4.jpg" alt="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Thumbnail</text>
                         </svg>
                     </div>
                 </div>
@@ -178,14 +226,17 @@
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img class="bd-placeholder-img" width="200" height="250" src="./images/thumb6.jpg" alt="">
-                            <title>Placeholder</title>
+                        <title>Placeholder</title>
                         </svg>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2020-2021 CodeWithDhiraj, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
 
 
     <!-- Optional JavaScript -->
